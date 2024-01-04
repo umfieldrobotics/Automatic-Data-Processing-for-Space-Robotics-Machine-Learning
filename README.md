@@ -26,4 +26,7 @@ In the `qgis_pipeline.py` script, first check that the `QGIS_PYTHON_INSTALL` pat
 
 Then, run the code by executing the following in your conda environment: `python3 qgis_pipeline.py`.
 
-To see the generated viewsheds, open up QGIS and open the `base_msl.qgz` or `base_mars2020.qgz` (depending on whether you are working with Curiosity or Perseverance images.
+To see the generated viewsheds, open up QGIS and open the `base_msl.qgz` or `base_mars2020.qgz` (depending on whether you are working with Curiosity or Perseverance images).
+
+## Troubleshooting
+Feel free to post an issue if you have any difficulties, or email me at anjashep@umich.edu! There are comments in the `qgis_pipeline.py` file that may help you add debugging print statements to figure out any potential issues.
